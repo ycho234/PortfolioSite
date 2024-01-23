@@ -10,7 +10,7 @@ export default function Navbar() {
         <li>
           <a href="/about">Skills</a>
         </li>
-        <Image src="/mainlogo.png" width={300} height={300} />
+        <Image src="/mainlogo.png" width={400} height={400} />
         <li>
           <a href="/about">Project</a>
         </li>
