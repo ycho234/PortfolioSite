@@ -4,13 +4,20 @@ export default function Navbar() {
   return (
     <nav>
       <ul>
+        <div className=" relative flex justify-center bg-red-600">
+          <Image
+            src="/mainlogo.png"
+            width={300}
+            height={300}
+            className="mx-auto"
+          />
+        </div>
         <li>
           <a href="/">About</a>
         </li>
         <li>
           <a href="/about">Skills</a>
         </li>
-        <Image src="/mainlogo.png" width={400} height={400} />
         <li>
           <a href="/about">Project</a>
         </li>
