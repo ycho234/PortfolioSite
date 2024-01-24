@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className=" relative flex justify-center bg-red-600 gap-24">
-      <div className="bg-green-700 flex items-center ">
-        <a href="/" className="text-2xl">
+    <nav className=" relative flex justify-center gap-24">
+      <div className="flex items-center ">
+        <a href="/" className="text-2xl hover:underline">
           About
         </a>
       </div>
-      <div className="bg-green-700 flex items-center ">
-        <a href="/" className="text-2xl">
+      <div className="flex items-center ">
+        <a href="/" className="text-2xl hover:underline ">
           Skills
         </a>
       </div>
@@ -22,13 +22,13 @@ export default function Navbar() {
           className="mx-auto"
         />
       </div>
-      <div className="bg-green-700 flex items-center">
-        <a href="/" className="text-2xl">
+      <div className="flex items-center">
+        <a href="/" className="text-2xl hover:underline">
           Projects
         </a>
       </div>
-      <div className="bg-green-700 flex items-center">
-        <a href="/" className="text-2xl">
+      <div className="flex items-center">
+        <a href="/" className="text-2xl hover:underline">
           Contact
         </a>
       </div>
