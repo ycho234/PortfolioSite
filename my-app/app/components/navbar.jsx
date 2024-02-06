@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className=" relative flex justify-center gap-24 mx-10 my-2">
+    <nav className=" relative flex justify-center gap-32 mx-10 mt-4">
       <div className="flex items-center ">
         <a href="/" className="text-2xl hover:underline">
           About
@@ -21,6 +21,7 @@ export default function Navbar() {
           width={300}
           height={300}
           className="mx-auto flex object-cover"
+          alt="mainlogo"
         />
       </div>
       <div className="flex items-center">

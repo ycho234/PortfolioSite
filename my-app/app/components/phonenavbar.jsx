@@ -10,6 +10,7 @@ export default function PhoneNavbar() {
             width={220}
             height={220}
             className="flex object-cover"
+            alt="mainlogo"
           />
         </div>
         <div className="">
