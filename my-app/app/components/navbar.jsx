@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className=" relative flex justify-center gap-24 mx-10 my-2">
+    <nav className=" relative flex justify-center gap-24 mx-10 my-2 bg-red-400">
       <div className="flex items-center ">
         <a href="/" className="text-2xl hover:underline">
           About
