@@ -10,7 +10,7 @@ export default function Navbar() {
         </a>
       </div>
       <div className="flex items-center ">
-        <Link href="/about/page">
+        <Link href="../about">
           <p className="text-2xl hover:underline">Skills</p>
         </Link>
       </div>
