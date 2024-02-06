@@ -5,6 +5,7 @@ export default nextConfig;
 module.exports = {
   compiler: {
     styledComponents: true,
+    type: module,
   },
 };
 // const nextConfig = {
