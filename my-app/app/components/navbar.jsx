@@ -43,7 +43,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="relative flex flex-col sm:flex-row justify-center gap-4 sm:gap-32 mx-5 mt-4 bg-slate-400">
+    <nav className="relative flex flex-col sm:flex-row justify-center gap-4 sm:gap-32 mx-5 mt-4">
       <div className="flex items-center">
         <a href="/" className="text-2xl hover:underline">
           About
@@ -57,8 +57,8 @@ export default function Navbar() {
       <div className="flex items-center justify-center relative">
         <Image
           src="/mainlogo.png"
-          width={300} // Adjusted width for better responsiveness
-          height={300} // Adjusted height for better responsiveness
+          width={300}
+          height={300}
           className="object-cover"
           alt="mainlogo"
         />
