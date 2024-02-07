@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function PhoneNameBanner() {
   return (
     <>
-      <div className="lg:block hidden  bg-slate-500">
+      <div className="lg:block hidden ">
         <div className="   pt-20 relative  ">
           <h1 className="text-4xl tracking-[.2em] ">
             <b className="text-[#CFACEA]">Hi</b>, my{" "}
