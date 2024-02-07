@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function PhoneNavbar() {
   return (
     <>
-      <div className=" my-3 mx-4 flex justify-between items-center mr-4">
+      <div className=" my-3 mx-2 flex justify-between items-center mr-4">
         <div>
           <Image
             src="/mainlogo.png"
