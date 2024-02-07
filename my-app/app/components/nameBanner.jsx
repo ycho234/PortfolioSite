@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function NameBanner() {
   return (
     <>
-      <div className=" mr-52 ml-20 pl-4 pt-20 pb-3 relative">
+      <div className=" mr-52 ml-20 pl-4 pt-20 relative">
         <h1 className="text-4xl tracking-[.2em]">
           <b className="text-[#CFACEA]">Hi</b>, my{" "}
           <b className="text-[#F4BFFF]">name</b> is
@@ -18,11 +18,14 @@ export default function NameBanner() {
       </div>
       <Image
         src="/banner.png"
-        width={700}
-        height={700}
+        width={800}
+        height={800}
         alt="banner"
-        className="mt-1 ml-24 flex-shrink-0"
+        className="mt-1 ml-24 flex"
       />
+      <h1 className="text-4xl tracking-[.2em] mr-52 ml-20 pl-4 pt-10">
+        Im a <b className="text-[#E8FFC7]">Junior Fullstack Developer</b>
+      </h1>
     </>
   );
 }
