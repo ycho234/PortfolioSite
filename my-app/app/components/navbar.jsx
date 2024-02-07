@@ -43,7 +43,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="relative flex flex-col sm:flex-row justify-center gap-4 sm:gap-32 mx-5 mt-4">
+    <nav className="relative flex flex-col sm:flex-row justify-center gap-4 sm:gap-32 mt-4 bg-slate-700">
       <div className="flex items-center">
         <a href="/" className="text-2xl hover:underline">
           About

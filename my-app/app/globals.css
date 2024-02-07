@@ -19,6 +19,8 @@
 body {
   color: white;
   background: black;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
 
 @layer utilities {
