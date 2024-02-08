@@ -43,13 +43,11 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="relative flex flex-col sm:flex-row justify-center gap-4 sm:gap-32 mt-4 ">
-      <div className="flex items-center">
+    <nav className="relative flex flex-col sm:flex-row justify-center mt-4 lg:mx-[6rem]">
+      <div className="flex items-center gap-32">
         <a href="/" className="text-2xl hover:underline">
           About
         </a>
-      </div>
-      <div className="flex items-center">
         <Link href="../about">
           <p className="text-2xl hover:underline">Skills</p>
         </Link>
@@ -59,16 +57,15 @@ export default function Navbar() {
           src="/mainlogo.png"
           width={300}
           height={300}
-          className="object-cover"
+          className="object-cover mx-32 bg-slate-400"
           alt="mainlogo"
         />
       </div>
-      <div className="flex items-center">
+      <div className="flex items-center gap-32">
         <a href="/" className="text-2xl hover:underline">
           Projects
         </a>
-      </div>
-      <div className="flex items-center">
+
         <a href="/" className="text-2xl hover:underline">
           Contact
         </a>
