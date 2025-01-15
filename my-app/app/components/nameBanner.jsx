@@ -23,9 +23,6 @@ export default function NameBanner() {
         alt="banner"
         className="mt-1 ml-24 flex"
       />
-      <h1 className="text-4xl tracking-[.2em] mr-52 ml-20 pl-4 pt-8">
-        Im a <b className="text-[#E8FFC7]">Junior Fullstack Developer</b>
-      </h1>
     </>
   );
 }
