@@ -24,10 +24,6 @@ export default function PhoneNameBanner() {
           alt="banner"
           className="mt-1 flex"
         />
-
-        <h1 className="text-4xl tracking-[.2em]  pt-6">
-          Im a <b className="text-[#E8FFC7]">Junior Fullstack Developer </b>
-        </h1>
       </div>
     </>
   );
